@@ -1,0 +1,94 @@
+```css
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+.header-images img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 50px;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.restaurant-images img {
+  width: 33%;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer label {
+  margin-top: 10px;
+  display: block;
+}
+
+footer input, footer textarea {
+  width: 300px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+footer input[type="submit"] {
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer input[type="submit"]:hover {
+  background-color: #555;
+}
+```
